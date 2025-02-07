@@ -120,7 +120,7 @@ public class instructorsystem {
         
         return s;
     }
-    public static String viewInstID(int id){
+    /*public static String viewInstID(int id){
     String instid = null;
     boolean found = false;
         for (int i = 0; i < inst.size(); i++) {
@@ -131,7 +131,7 @@ public class instructorsystem {
             }
         }
         return instid;
-    }
+    }*/
     public static String viewInstName(int id){
         String instName= new String();
         for (int i = 0; i < inst.size(); i++) {
