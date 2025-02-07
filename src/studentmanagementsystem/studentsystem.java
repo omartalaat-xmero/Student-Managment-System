@@ -69,7 +69,7 @@ public class studentsystem {
             System.out.println("Student with ID " + id + " not found.");
         }
     }
-    public static void setcoursetoStudent(int id,Course course, Grade grade) {
+    /*public static void setcoursetoStudent(int id,Course course, Grade grade) {
         boolean found = false;
         for(int i = 0; i < stud.size(); i++) {
             if (stud.get(i).getId()== id) {
@@ -81,7 +81,7 @@ public class studentsystem {
         if (!found) {
             System.out.println("Student with ID " + id + " not found.");
         }
-    }
+    }*/
     public static void setgradetoStudent(int id,Course course, Grade grade) {
         boolean found = false;
         for(int i = 0; i < stud.size(); i++) {
@@ -191,7 +191,7 @@ public class studentsystem {
         }
         return details;
     }
-    public static String viewstudID(int id){
+    /*public static String viewstudID(int id){
     String instid = null;
     boolean found = false;
         for (int i = 0; i < stud.size(); i++) {
@@ -202,7 +202,7 @@ public class studentsystem {
             }
         }
         return instid;
-    }
+    }*/
     public static String viewstudName(int id){
         String instName= new String();
         for (int i = 0; i < stud.size(); i++) {
